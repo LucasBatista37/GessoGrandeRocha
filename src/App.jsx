@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
+    <div className="min-h-screen flex flex-col bg-[#FAFAFA] text-[#1C1C1C]">
       <Navbar />
       <main className="mt-20">
         <HeroSection />

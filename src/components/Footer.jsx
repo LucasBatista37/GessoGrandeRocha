@@ -2,16 +2,14 @@ import { MapPin, Mail, Phone, Facebook, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-gray-900 text-gray-300 pt-16 pb-8 overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-blue-600 to-transparent" />
-
+    <footer className="relative bg-[#1C1C1C] text-[#CCCCCC] pt-16 pb-8 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">
               Drywall & Construções
             </h3>
-            <p className="text-gray-400 leading-relaxed mb-6">
+            <p className="text-[#AAAAAA] leading-relaxed mb-6">
               Especialistas em drywall, forros e reformas residenciais e
               comerciais. Qualidade, agilidade e acabamento impecável em cada
               projeto.
@@ -22,15 +20,15 @@ export default function Footer() {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition"
+                className="bg-[#2A2A2A] hover:bg-[#E67E22] text-white p-3 rounded-full transition-colors duration-300"
               >
                 <Instagram size={20} />
               </a>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/AldemirGesso"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition"
+                className="bg-[#2A2A2A] hover:bg-[#E67E22] text-white p-3 rounded-full transition-colors duration-300"
               >
                 <Facebook size={20} />
               </a>
@@ -38,30 +36,29 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-semibold text-white mb-4">
-              Contato
-            </h4>
-            <ul className="space-y-3 text-gray-400">
+            <h4 className="text-xl font-semibold text-white mb-4">Contato</h4>
+            <ul className="space-y-3 text-[#AAAAAA]">
               <li className="flex items-start gap-3">
-                <MapPin className="text-blue-500 mt-1" size={18} />
+                <MapPin className="text-[#E67E22] mt-1" size={18} />
                 <span>
-                  Rua das Construções, 1234<br />
-                  São Vicente - SP
+                  R. Monsenhor Seckler, 771 - Casa 2
+                  <br />
+                  Jardim Praia Grande, Mongaguá - SP
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="text-blue-500" size={18} />
+                <Phone className="text-[#E67E22]" size={18} />
                 <a
-                  href="https://wa.me/5511999999999"
+                  href="https://wa.me/5511977349133"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition"
                 >
-                  (11) 99999-9999
+                  (11) 97734-9133
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Mail className="text-blue-500" size={18} />
+                <Mail className="text-[#E67E22]" size={18} />
                 <a
                   href="mailto:contato@drywallconstrucoes.com"
                   className="hover:text-white transition"
@@ -76,10 +73,10 @@ export default function Footer() {
             <h4 className="text-xl font-semibold text-white mb-4">
               Localização
             </h4>
-            <div className="rounded-xl overflow-hidden shadow-lg border border-gray-700">
+            <div className="rounded-xl overflow-hidden shadow-lg border border-[#333333]">
               <iframe
-                title="Mapa de Localização"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.007241167617!2d-46.653458!3d-23.565734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c97f3a7b75%3A0x1e26d238a30d9c67!2sPaulista%20Avenue!5e0!3m2!1sen!2sbr!4v1698244800000!5m2!1sen!2sbr"
+                title="Mapa de Localização - Gesso Grande Rocha"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.900710025616!2d-46.66356818458553!3d-24.10960758428685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce49f64d6205f9%3A0x64af1baff9d0527c!2sGesso%20Grande%20Rocha!5e0!3m2!1spt-BR!2sbr!4v1730000000000!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="200"
                 style={{ border: 0 }}
@@ -91,21 +88,21 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 my-8"></div>
+        <div className="border-t border-[#333333] my-8"></div>
 
-        <div className="flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
+        <div className="flex flex-col md:flex-row items-center justify-between text-sm text-[#888888]">
           <p>© 2025 Drywall & Construções — Todos os direitos reservados</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#about" className="hover:text-white transition">
+            <a href="#about" className="hover:text-[#E67E22] transition">
               Sobre
             </a>
-            <a href="#services" className="hover:text-white transition">
+            <a href="#services" className="hover:text-[#E67E22] transition">
               Serviços
             </a>
-            <a href="#contact" className="hover:text-white transition">
+            <a href="#contact" className="hover:text-[#E67E22] transition">
               Contato
             </a>
-            <a href="#privacy" className="hover:text-white transition">
+            <a href="#privacy" className="hover:text-[#E67E22] transition">
               Política de Privacidade
             </a>
           </div>

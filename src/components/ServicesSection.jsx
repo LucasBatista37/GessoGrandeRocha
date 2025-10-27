@@ -36,16 +36,17 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="relative py-24 bg-gray-50 text-gray-800">
-      <div className="absolute top-0 left-0 w-full h-24 bg-gradient-to-b from-white to-transparent" />
-
+    <section
+      id="services"
+      className="relative py-24 bg-[#FAFAFA] text-[#1C1C1C] overflow-hidden"
+    >
       <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-3xl md:text-4xl font-bold mb-6 text-gray-900"
+          className="text-3xl md:text-4xl font-bold mb-6 text-[#1C1C1C]"
         >
           Nossos Serviços
         </motion.h2>
@@ -55,7 +56,7 @@ export default function ServicesSection() {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-gray-600 max-w-2xl mx-auto mb-12"
+          className="text-[#555555] max-w-2xl mx-auto mb-12 leading-relaxed"
         >
           Oferecemos soluções completas em drywall, forros e reformas, unindo
           agilidade, qualidade e acabamento impecável em cada projeto.
@@ -69,15 +70,15 @@ export default function ServicesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-white rounded-2xl shadow-md hover:shadow-lg transition overflow-hidden p-8 border border-gray-100 group"
+              className="bg-white rounded-2xl shadow-md hover:shadow-lg transition overflow-hidden p-8 border border-[#EEE] group"
             >
-              <div className="flex justify-center items-center mb-6 text-blue-600 group-hover:scale-110 transition-transform">
+              <div className="flex justify-center items-center mb-6 p-3 rounded-xl bg-[#FFF3E0] text-[#E67E22] group-hover:bg-[#E67E22] group-hover:text-white transition-colors duration-300">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">
+              <h3 className="text-xl font-semibold mb-3 text-[#1C1C1C] group-hover:text-[#E67E22] transition-colors">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
+              <p className="text-[#555555] text-sm leading-relaxed">
                 {service.description}
               </p>
             </motion.div>
