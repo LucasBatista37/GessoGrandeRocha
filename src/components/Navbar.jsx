@@ -55,7 +55,7 @@ export default function Navbar() {
           onClick={() => scrollToSection("home")}
         >
           <img
-            src="/images/aldemirgessologo.png"
+            src="/images/aldemirgessologo.webp"
             alt="Logo Aldemir Gesso"
             className="h-11 w-auto object-contain"
           />

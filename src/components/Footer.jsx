@@ -20,14 +20,17 @@ export default function Footer() {
                 href="https://www.instagram.com/aldemirgrande?igsh=eHF4NXd6Y3Y3bmdj"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram da Gesso Grande Rocha"
                 className="bg-[#2A2A2A] hover:bg-[#E67E22] text-white p-3 rounded-full transition-colors duration-300"
               >
                 <Instagram size={20} />
               </a>
+
               <a
                 href="https://www.facebook.com/AldemirGesso"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Facebook da Gesso Grande Rocha"
                 className="bg-[#2A2A2A] hover:bg-[#E67E22] text-white p-3 rounded-full transition-colors duration-300"
               >
                 <Facebook size={20} />

@@ -10,75 +10,75 @@ export default function GaleriaPage() {
 
   const projects = [
     {
-      image: "/images/gallery/imagem1.jpeg",
+      image: "/images/gallery/imagem1.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem2.jpeg",
+      image: "/images/gallery/imagem2.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem3.jpeg",
+      image: "/images/gallery/imagem3.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem4.jpeg",
+      image: "/images/gallery/imagem4.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem5.jpeg",
+      image: "/images/gallery/imagem5.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem6.jpeg",
+      image: "/images/gallery/imagem6.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem7.jpeg",
+      image: "/images/gallery/imagem7.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem8.jpeg",
+      image: "/images/gallery/imagem8.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem9.jpeg",
+      image: "/images/gallery/imagem9.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem10.jpeg",
+      image: "/images/gallery/imagem10.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem11.jpeg",
+      image: "/images/gallery/imagem11.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem12.jpeg",
+      image: "/images/gallery/imagem12.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem13.jpeg",
+      image: "/images/gallery/imagem13.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem14.jpeg",
+      image: "/images/gallery/imagem14.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem15.jpeg",
+      image: "/images/gallery/imagem15.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem16.jpeg",
+      image: "/images/gallery/imagem16.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem17.jpeg",
+      image: "/images/gallery/imagem17.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem18.jpeg",
+      image: "/images/gallery/imagem18.webp",
       title: "",
     },
   ];

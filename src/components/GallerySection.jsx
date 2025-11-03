@@ -10,27 +10,27 @@ export default function GallerySection() {
 
   const projects = [
     {
-      image: "/images/gallery/imagem1.jpeg",
+      image: "/images/gallery/imagem1.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem3.jpeg",
+      image: "/images/gallery/imagem3.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem4.jpeg",
+      image: "/images/gallery/imagem4.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem5.jpeg",
+      image: "/images/gallery/imagem5.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem6.jpeg",
+      image: "/images/gallery/imagem6.webp",
       title: "",
     },
     {
-      image: "/images/gallery/imagem9.jpeg",
+      image: "/images/gallery/imagem9.webp",
       title: "",
     },
   ];
@@ -121,12 +121,15 @@ export default function GallerySection() {
 
           <button
             onClick={prevSlide}
+            aria-label="Imagem anterior"
             className="absolute top-1/2 left-3 -translate-y-1/2 bg-[#1C1C1C]/60 hover:bg-[#E67E22] text-white p-2 rounded-full transition"
           >
             <ChevronLeft size={20} />
           </button>
+
           <button
             onClick={nextSlide}
+            aria-label="Próxima imagem"
             className="absolute top-1/2 right-3 -translate-y-1/2 bg-[#1C1C1C]/60 hover:bg-[#E67E22] text-white p-2 rounded-full transition"
           >
             <ChevronRight size={20} />

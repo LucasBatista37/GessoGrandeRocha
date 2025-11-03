@@ -18,9 +18,9 @@ export default function AboutSection() {
   });
 
   const images = [
-    "/images/team/equipe1.jpeg",
-    "/images/team/equipe2.jpeg",
-    "/images/team/equipe3.png",
+    "/images/team/equipe1.webp",
+    "/images/team/equipe2.webp",
+    "/images/team/equipe3.webp",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);

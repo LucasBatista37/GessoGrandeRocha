@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative -mt-px flex items-center justify-center min-h-[90vh] bg-[url('/images/drywall-banner.jpg')] bg-cover bg-center"
+      className="relative -mt-px flex items-center justify-center min-h-[90vh] bg-[url('/images/drywall-banner.webp')] bg-cover bg-center"
     >
       <div className="absolute inset-0 bg-[#1C1C1C]/70 backdrop-blur-[1px]" />
 
@@ -39,7 +39,7 @@ export default function HeroSection() {
             href="https://wa.me/5511977349133"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 bg-[#E67E22] hover:bg-[#cf6d1e] text-white px-8 py-3 rounded-full font-semibold transition shadow-lg"
+            className="flex items-center gap-2 bg-[#C75B17] hover:bg-[#E67E22] text-white px-8 py-3 rounded-full font-semibold transition shadow-lg"
           >
             <Phone size={20} />
             Fale no WhatsApp
@@ -47,7 +47,7 @@ export default function HeroSection() {
 
           <a
             href="#services"
-            className="border border-[#E67E22] text-[#E67E22] hover:bg-[#E67E22] hover:text-white px-8 py-3 rounded-full font-semibold transition"
+            className="border border-[#C75B17] text-[#C75B17] hover:bg-[#C75B17] hover:text-white px-8 py-3 rounded-full font-semibold transition"
           >
             Ver Serviços
           </a>
