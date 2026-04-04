@@ -11,27 +11,27 @@ export default function GallerySection() {
   const projects = [
     {
       image: "/images/gallery/imagem1.webp",
-      title: "",
+      title: "Instalação de forro de drywall em residência em Mongaguá",
     },
     {
       image: "/images/gallery/imagem3.webp",
-      title: "",
+      title: "Montagem de parede em drywall para ambiente comercial em Praia Grande",
     },
     {
       image: "/images/gallery/imagem4.webp",
-      title: "",
+      title: "Sanca de gesso com iluminação embutida em Itanhaém",
     },
     {
       image: "/images/gallery/imagem5.webp",
-      title: "",
+      title: "Acabamento em drywall para sala de estar em Mongaguá",
     },
     {
       image: "/images/gallery/imagem6.webp",
-      title: "",
+      title: "Divisória corporativa em drywall em Praia Grande",
     },
     {
       image: "/images/gallery/imagem9.webp",
-      title: "",
+      title: "Reforma residencial com forro de gesso em Itanhaém",
     },
   ];
 

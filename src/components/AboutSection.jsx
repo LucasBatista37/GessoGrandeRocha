@@ -83,8 +83,9 @@ export default function AboutSection() {
 
           <p className="text-[#555555] mb-10 leading-relaxed">
             Prezamos pela confiança, pela qualidade e pela entrega responsável
-            em cada etapa do projeto. Do planejamento à execução, buscamos
-            sempre superar as expectativas dos nossos clientes.
+            em cada etapa do projeto. Atendemos Mongaguá, Itanhaém, Praia Grande
+            e toda a Baixada Santista, sempre buscando superar as expectativas
+            dos nossos clientes.
           </p>
 
           <motion.div
@@ -101,7 +102,7 @@ export default function AboutSection() {
               },
               { icon: <Users size={24} />, label: "Equipe especializada" },
               { icon: <Hammer size={24} />, label: "Acabamento profissional" },
-              { icon: <MapPin size={24} />, label: "Litoral de SP" },
+              { icon: <MapPin size={24} />, label: "Mongaguá, Itanhaém e Praia Grande" },
             ].map(({ icon, label }, i) => (
               <motion.div
                 key={i}

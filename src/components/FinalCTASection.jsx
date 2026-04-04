@@ -60,7 +60,7 @@ export default function FinalCTASection() {
           <p className="text-gray-300 text-lg mb-10 leading-relaxed max-w-md mx-auto md:mx-0">
             Solicite um orçamento gratuito e descubra como o drywall pode
             valorizar o seu espaço com rapidez, limpeza e acabamento
-            profissional.
+            profissional. Atendemos Mongaguá, Itanhaém e Praia Grande.
           </p>
 
           <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row justify-center md:justify-start gap-4">

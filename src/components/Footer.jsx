@@ -1,4 +1,5 @@
 import { MapPin, Mail, Phone, Facebook, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -93,8 +94,37 @@ export default function Footer() {
 
         <div className="border-t border-[#333333] my-8"></div>
 
+        <div className="mb-8">
+          <h4 className="text-lg font-semibold text-white mb-3">Áreas de Atendimento</h4>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              to="/gesso-mongagua"
+              className="flex items-center gap-1 text-[#AAAAAA] hover:text-[#E67E22] transition text-sm"
+            >
+              <MapPin size={14} className="text-[#E67E22]" />
+              Gesso em Mongaguá
+            </Link>
+            <Link
+              to="/gesso-itanhaem"
+              className="flex items-center gap-1 text-[#AAAAAA] hover:text-[#E67E22] transition text-sm"
+            >
+              <MapPin size={14} className="text-[#E67E22]" />
+              Gesso em Itanhaém
+            </Link>
+            <Link
+              to="/gesso-praia-grande"
+              className="flex items-center gap-1 text-[#AAAAAA] hover:text-[#E67E22] transition text-sm"
+            >
+              <MapPin size={14} className="text-[#E67E22]" />
+              Gesso em Praia Grande
+            </Link>
+          </div>
+        </div>
+
+        <div className="border-t border-[#333333] my-8"></div>
+
         <div className="flex flex-col md:flex-row items-center justify-between text-sm text-[#888888]">
-          <p>© 2025 Gesso Grande Rocha — Todos os direitos reservados</p>
+          <p>© {new Date().getFullYear()} Gesso Grande Rocha — Todos os direitos reservados</p>
           <div className="flex gap-4 mt-4 md:mt-0">
             <a href="#about" className="hover:text-[#E67E22] transition">
               Sobre

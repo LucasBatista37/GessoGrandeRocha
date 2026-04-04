@@ -25,8 +25,8 @@ export default function HeroSection() {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="text-lg md:text-xl text-gray-200 mb-8 leading-relaxed"
         >
-          Instalações rápidas, limpas e com acabamento impecável. <br />
-          Soluções sob medida para residências e empresas.
+          Instalações rápidas, limpas e com acabamento impecável em Mongaguá, Itanhaém e Praia Grande. <br />
+          Soluções sob medida para residências e empresas no litoral de SP.
         </motion.p>
 
         <motion.div

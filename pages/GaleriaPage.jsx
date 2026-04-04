@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Footer from "../src/components/Footer";
+import SEOHead from "../src/components/SEOHead";
 
 export default function GaleriaPage() {
   const navigate = useNavigate();
@@ -11,80 +12,85 @@ export default function GaleriaPage() {
   const projects = [
     {
       image: "/images/gallery/imagem1.webp",
-      title: "",
+      title: "Instalação de forro de drywall em residência em Mongaguá",
     },
     {
       image: "/images/gallery/imagem2.webp",
-      title: "",
+      title: "Parede de drywall com acabamento profissional em Praia Grande",
     },
     {
       image: "/images/gallery/imagem3.webp",
-      title: "",
+      title: "Montagem de parede em drywall para ambiente comercial em Praia Grande",
     },
     {
       image: "/images/gallery/imagem4.webp",
-      title: "",
+      title: "Sanca de gesso com iluminação embutida em Itanhaém",
     },
     {
       image: "/images/gallery/imagem5.webp",
-      title: "",
+      title: "Acabamento em drywall para sala de estar em Mongaguá",
     },
     {
       image: "/images/gallery/imagem6.webp",
-      title: "",
+      title: "Divisória corporativa em drywall em Praia Grande",
     },
     {
       image: "/images/gallery/imagem7.webp",
-      title: "",
+      title: "Forro de gesso liso em quarto residencial em Itanhaém",
     },
     {
       image: "/images/gallery/imagem8.webp",
-      title: "",
+      title: "Revestimento decorativo em gesso 3D em Mongaguá",
     },
     {
       image: "/images/gallery/imagem9.webp",
-      title: "",
+      title: "Reforma residencial com forro de gesso em Itanhaém",
     },
     {
       image: "/images/gallery/imagem10.webp",
-      title: "",
+      title: "Armário sob medida em MDF com acabamento premium em Mongaguá",
     },
     {
       image: "/images/gallery/imagem11.webp",
-      title: "",
+      title: "Instalação de divisória acústica em escritório em Praia Grande",
     },
     {
       image: "/images/gallery/imagem12.webp",
-      title: "",
+      title: "Sanca aberta com LED em sala moderna em Mongaguá",
     },
     {
       image: "/images/gallery/imagem13.webp",
-      title: "",
+      title: "Projeto de drywall para cozinha planejada em Itanhaém",
     },
     {
       image: "/images/gallery/imagem14.webp",
-      title: "",
+      title: "Parede em drywall com nicho decorativo em Praia Grande",
     },
     {
       image: "/images/gallery/imagem15.webp",
-      title: "",
+      title: "Forro rebaixado em drywall para banheiro em Mongaguá",
     },
     {
       image: "/images/gallery/imagem16.webp",
-      title: "",
+      title: "Acabamento de gesso em área comercial em Itanhaém",
     },
     {
       image: "/images/gallery/imagem17.webp",
-      title: "",
+      title: "Reforma completa com drywall em apartamento em Praia Grande",
     },
     {
       image: "/images/gallery/imagem18.webp",
-      title: "",
+      title: "Projeto finalizado de forro e sanca em residência em Mongaguá",
     },
   ];
 
   return (
     <>
+      <SEOHead
+        title="Galeria de Projetos | Gesso Grande Rocha - Drywall em Mongaguá, Itanhaém e Praia Grande"
+        description="Veja nossos projetos de drywall, forros, sancas e reformas realizados em Mongaguá, Itanhaém e Praia Grande. Acabamento impecável e qualidade profissional."
+        canonicalUrl="https://gessogranderocha.com.br/galeria"
+      />
       <section className="relative py-24 bg-[#FAFAFA] text-[#1C1C1C] overflow-hidden min-h-screen">
         <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
           <div className="flex justify-start mb-6">

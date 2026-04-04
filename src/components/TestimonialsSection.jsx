@@ -38,9 +38,9 @@ export default function TestimonialsSection() {
 
         <div className="flex justify-center">
           <div
-            className="elfsight-app-d9c6654f-f624-4d34-95b4-733400d1a5ec w-full max-w-4xl"
+            className="elfsight-app-222e3203-18d3-4204-817a-b3fec014be48 w-full max-w-4xl"
             data-elfsight-app-lazy
-          ></div>
+          />
         </div>
 
         <motion.p

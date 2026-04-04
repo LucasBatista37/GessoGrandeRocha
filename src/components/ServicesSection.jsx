@@ -65,8 +65,8 @@ export default function ServicesSection() {
           className="text-[#555555] max-w-2xl mx-auto mb-12 leading-relaxed"
         >
           Oferecemos soluções completas em armários sob medida, drywall, forros
-          e reformas, unindo agilidade, qualidade e acabamento impecável em cada
-          projeto.
+          e reformas em Mongaguá, Itanhaém e Praia Grande, unindo agilidade,
+          qualidade e acabamento impecável em cada projeto.
         </motion.p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">

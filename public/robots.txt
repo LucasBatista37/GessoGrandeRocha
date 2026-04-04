@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gessogranderocha.com.br/sitemap.xml
